@@ -1,0 +1,1 @@
+SELECT * FROM sys.database_principals where default_schema_name = 'dbo' and name <> 'dbo'
